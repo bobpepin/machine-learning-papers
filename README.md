@@ -1,6 +1,9 @@
 Interesting Machine Learning Papers
 =======================
 
+Fundamentals
+=============
+
 A Walk With SGD
 -------------
 https://arxiv.org/abs/1802.08770
@@ -50,6 +53,20 @@ Kenji Kawaguchi, Yoshua Bengio
 
 This paper introduces a novel measure-theoretic learning theory to analyze generalization behaviors of practical interest. The proposed learning theory has the following abilities: 1) to utilize the qualities of each learned representation on the path from raw inputs to outputs in representation learning, 2) to guarantee good generalization errors possibly with arbitrarily rich hypothesis spaces (e.g., arbitrarily large capacity and Rademacher complexity) and non-stable/non-robust learning algorithms, and 3) to clearly distinguish each individual problem instance from each other. Our generalization bounds are relative to a representation of the data, and hold true even if the representation is learned. We discuss several consequences of our results on deep learning, one-shot learning and curriculum learning. Unlike statistical learning theory, the proposed learning theory analyzes each problem instance individually via measure theory, rather than a set of problem instances via statistics. Because of the differences in the assumptions and the objectives, the proposed learning theory is meant to be complementary to previous learning theory and is not designed to compete with it.
 
+
+On Nonlinear Dimensionality Reduction, Linear Smoothing and Autoencoding
+--------------------------------------
+https://arxiv.org/abs/1803.02432
+
+Daniel Ting, Michael I. Jordan
+
+(Submitted on 6 Mar 2018)
+
+We develop theory for nonlinear dimensionality reduction (NLDR). A number of NLDR methods have been developed, but there is limited understanding of how these methods work and the relationships between them. There is limited basis for using existing NLDR theory for deriving new algorithms. We provide a novel framework for analysis of NLDR via a connection to the statistical theory of linear smoothers. This allows us to both understand existing methods and derive new ones. We use this connection to smoothing to show that asymptotically, existing NLDR methods correspond to discrete approximations of the solutions of sets of differential equations given a boundary condition. In particular, we can characterize many existing methods in terms of just three limiting differential operators and boundary conditions. Our theory also provides a way to assert that one method is preferable to another; indeed, we show Local Tangent Space Alignment is superior within a class of methods that assume a global coordinate chart defines an isometric embedding of the manifold.
+
+
+Theoretical Interest
+====================
 
 Averaging Stochastic Gradient Descent on Riemannian Manifolds
 ----------
