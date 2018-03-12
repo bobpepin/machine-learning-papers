@@ -65,6 +65,28 @@ Daniel Ting, Michael I. Jordan
 We develop theory for nonlinear dimensionality reduction (NLDR). A number of NLDR methods have been developed, but there is limited understanding of how these methods work and the relationships between them. There is limited basis for using existing NLDR theory for deriving new algorithms. We provide a novel framework for analysis of NLDR via a connection to the statistical theory of linear smoothers. This allows us to both understand existing methods and derive new ones. We use this connection to smoothing to show that asymptotically, existing NLDR methods correspond to discrete approximations of the solutions of sets of differential equations given a boundary condition. In particular, we can characterize many existing methods in terms of just three limiting differential operators and boundary conditions. Our theory also provides a way to assert that one method is preferable to another; indeed, we show Local Tangent Space Alignment is superior within a class of methods that assume a global coordinate chart defines an isometric embedding of the manifold.
 
 
+WNGrad: Learn the Learning Rate in Gradient Descent
+---------------------------------------------------
+https://arxiv.org/abs/1803.02865
+
+Xiaoxia Wu, Rachel Ward, Léon Bottou
+
+(Submitted on 7 Mar 2018)
+
+Adjusting the learning rate schedule in stochastic gradient methods is an important unresolved problem which requires tuning in practice. If certain parameters of the loss function such as smoothness or strong convexity constants are known, theoretical learning rate schedules can be applied. However, in practice, such parameters are not known, and the loss function of interest is not convex in any case. The recently proposed batch normalization reparametrization is widely adopted in most neural network architectures today because, among other advantages, it is robust to the choice of Lipschitz constant of the gradient in loss function, allowing one to set a large learning rate without worry. Inspired by batch normalization, we propose a general nonlinear update rule for the learning rate in batch and stochastic gradient descent so that the learning rate can be initialized at a high value, and is subsequently decreased according to gradient observations along the way. The proposed method is shown to achieve robustness to the relationship between the learning rate and the Lipschitz constant, and near-optimal convergence rates in both the batch and stochastic settings (O(1/T) for smooth loss in the batch setting, and O(1/T‾‾√) for convex loss in the stochastic setting). We also show through numerical evidence that such robustness of the proposed method extends to highly nonconvex and possibly non-smooth loss function in deep learning problems.Our analysis establishes some first theoretical understanding into the observed robustness for batch normalization and weight normalization.
+
+General AI
+==========
+A Multi-Objective Deep Reinforcement Learning Framework
+-------------------------------------------------------
+https://arxiv.org/abs/1803.02965
+
+Thanh Thi Nguyen
+
+(Submitted on 8 Mar 2018)
+
+This paper presents a new multi-objective deep reinforcement learning (MODRL) framework based on deep Q-networks. We propose linear and non-linear methods to develop the MODRL framework that includes both single-policy and multi-policy strategies. The experimental results on a deep sea treasure environment indicate that the proposed approach is able to converge to the optimal Pareto solutions. The proposed framework is generic, which allows implementation of different deep reinforcement learning algorithms in various complex environments. Details of the framework implementation can be referred to this http URL
+
 Theoretical Interest
 ====================
 
